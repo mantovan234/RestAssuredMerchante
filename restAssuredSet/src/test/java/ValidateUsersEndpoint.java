@@ -12,8 +12,6 @@ import java.io.File;
 
 public class ValidateUsersEndpoint {
 
-	
-//	private static final File schema = new File(System.getProperty("C:\\Users\\el_ra\\eclipse-workspace\\restAssuredSet\\src\\test\\resources\\")+"schema.json");
 
 	@BeforeTest
 	public void setup() {

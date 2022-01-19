@@ -61,13 +61,6 @@ public class ValidateUsersEndpoint {
 	
 	
 	@Test
-	public void whenLogResponseThenOK() {
-		given().formParams("page", "2")
-	    .when().get("/users")
-	    .then().log().body().statusCode(200);
-	}
-	
-	@Test
 	public void ValidateResponseTime() {
 		given().formParams("page", "2")
 	    .when().get("/users")

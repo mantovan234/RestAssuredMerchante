@@ -1,2 +1,2 @@
 # RestAssuredMerchante
-Example of a test set for an endpoint using RestAssured and TestNG
+Example of a minimum test set for an endpoint using RestAssured and TestNG
